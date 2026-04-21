@@ -1,0 +1,18 @@
+name = "calorie-tracker-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_YOUR_PREVIEW_KV_NAMESPACE_ID"
+
+[vars]
+DAILY_CAP_PER_DEVICE = "50"
+RATE_LIMIT_PER_MINUTE = "10"
+ENVIRONMENT = "production"
+
+# Secrets (set via `wrangler secret put`):
+# GEMINI_API_KEY
+# HMAC_SECRET

@@ -1,0 +1,6 @@
+# Copy this to .dev.vars (never commit .dev.vars)
+GEMINI_API_KEY=your_gemini_api_key_here
+HMAC_SECRET=generate_a_random_32_char_string_here
+DAILY_CAP_PER_DEVICE=50
+RATE_LIMIT_PER_MINUTE=10
+ENVIRONMENT=development
