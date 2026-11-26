@@ -1,5 +1,9 @@
 # Calorie Tracker
 
+> **In breve.** L'idea è un'app per iPhone che conta le calorie senza abbonamento e senza account: fotografi il piatto, l'etichetta o il codice a barre e un'intelligenza artificiale (Gemini) stima calorie e valori nutrizionali.
+>
+> **A che punto è:** a metà. Esiste solo la parte "dietro le quinte" (un piccolo server su Cloudflare che parla con Gemini e con il database di Open Food Facts) più tutta la documentazione di progetto. L'app per iPhone (la "fase 2", da fare su Mac con Xcode) non è in questo repository. Ultimo lavoro: aprile 2026.
+
 Subscription-free iOS calorie tracker. Log meals by photo, barcode, or manual entry. AI nutrition analysis via Gemini. No account required.
 
 **Status:** Phase 1 complete (backend + docs). Phase 2 (iOS app) starts on Mac with Xcode.
